@@ -12,3 +12,6 @@ https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC
 
 Пример запуска игры, победы и поражения игрока для brain-gcd  
 https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ
+
+Пример запуска игры, победы и поражения игрока для brain-progression                              
+https://asciinema.org/a/7NDDoCKmArrKy91hwKPLQenY5
