@@ -9,3 +9,6 @@ https://asciinema.org/a/XmzYyXg94IQLVE5IdRqk8Rbxa
 
 Пример запуска игры, победы и поражения игрока для brain-calc                       
 https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC
+
+Пример запуска игры, победы и поражения игрока для brain-gcd  
+https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ
