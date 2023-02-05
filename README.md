@@ -9,7 +9,7 @@
 
 [Игра: "Калькулятор"](#brain-calc)
 
-[Игра: "НОД"](#brain-nod)
+[Игра: "НОД"](#brain-gcl)
 
 [Игра: "Арифметическая прогрессия"](#brain-progression)
 
@@ -27,17 +27,42 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/XmzYyXg94IQLVE5IdRqk8Rbxa" target="_blank"><img src="https://asciinema.org/a/XmzYyXg94IQLVE5IdRqk8Rbxa.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC" target="_blank"><img src="https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC.svg" width="800" height="450" /></a>
+
+[вернуться к списку игр](#list_of_games)
+<a name="brain-calc"></a>
+## Игра "Калькулятор"
+#### В данной игре Вам необходимо посчитать сумму, разницу или произведение двух чисел
+#### Запустить игру можно из консоли, набрав brain-calc
+
+                                 Правила игры:
+- В начале игры Вам необходимо  ввести свое имя, после чего  начнется игра и на экране появится вопрос
+- Необходимо ввести ответ выражения
+- Игра считается пройденной если Вы правильно ответили 3 раза подряд
+- В случае если вы ввели неправильный ответ, то игра завершается.
+
+<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg" width="800" height="450"  /></a>
+
+[вернуться к списку игр](#list_of_games)
+
+<a name="brain-gcl"></a>
+## Игра "НОД"
+#### В данной игре Вам необходимо посчитать НОД двух чисел
+`НОД - Наибольший общий делитель двух чисел` 
+#### Запустить игру можно из консоли, набрав brain-gcd
+
+
+                                      Правила игры:
+- В начале игры Вам необходимо  ввести свое имя, после чего  начнется игра и на экране появится вопрос
+- Необходимо ввести НОД 2 чисел
+- Игра считается пройденной если Вы правильно ответили 3 раза подряд
+- В случае если вы ввели неправильный ответ, то игра завершается.
+
+<a href="https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ" target="_blank"><img src="https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ.svg" width="800" height="450" /></a>
+
+[вернуться к списку игр](#list_of_games)
 
 ### Инструкция:
-Пример установки пакета, запуска игры, победы и поражения игрока для brain-even
-https://asciinema.org/a/XmzYyXg94IQLVE5IdRqk8Rbxa
-
-Пример запуска игры, победы и поражения игрока для brain-calc                       
-https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC
-
-Пример запуска игры, победы и поражения игрока для brain-gcd  
-https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ
 
 Пример запуска игры, победы и поражения игрока для brain-progression                              
 https://asciinema.org/a/7NDDoCKmArrKy91hwKPLQenY5
