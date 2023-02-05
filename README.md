@@ -94,4 +94,5 @@
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
 <a href="https://asciinema.org/a/5w0L5veeb3pUlgUNJeJfXZOTj" target="_blank"><img src="https://asciinema.org/a/5w0L5veeb3pUlgUNJeJfXZOTj.svg" width="800" height="450"/></a>
+
 [вернуться к списку игр](#list_of_games)
