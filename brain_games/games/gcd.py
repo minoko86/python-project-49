@@ -14,7 +14,7 @@ def get_question():
     num_1, num_2 = choices(range(1, 30), k=2)
     question = num_1, num_2
     answer = get_gcd(num_1, num_2)
-    return question, str(answer)
+    return question, answer
 
 
 def run_game():
