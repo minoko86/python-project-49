@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.talk import talk_game
 
-case = 'What is the result of the expression?'
+case = 'What number is missing in the progression?'
 
 progression_length = 15
 
