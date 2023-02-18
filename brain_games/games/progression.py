@@ -1,22 +1,23 @@
 from random import randint
 from brain_games.talk import talk_game
 
-case = 'What number is missing in the progression?'
+CASE = 'What number is missing in the progression?'
 
-progression_length = 15
+PROGRESSION_LENGHT = 15
+
+START = randint(1, 100)
+STEP = randint(1, 10)
 
 
-def get_progression(start, step, progression_length):
-    end = start + (progression_length * step)
-    progression = list(range(start, end, step))
+def get_progression(START, STEP, PROGRESSION_LENGHT):
+    end = START + (PROGRESSION_LENGHT * STEP)
+    progression = list(range(START, end, STEP))
     return progression
 
 
 def get_question():
-    start = randint(1, 100)
-    step = randint(1, 10)
-    miss_item_index = randint(1, progression_length - 1)
-    progression = get_progression(start, step, progression_length)
+    miss_item_index = randint(1, PROGRESSION_LENGHT - 1)
+    progression = get_progression(START, STEP, PROGRESSION_LENGHT)
     answer = progression.pop(miss_item_index)
     progression.insert(miss_item_index, "..")
     question = " ".join([str(i) for i in progression])
@@ -24,4 +25,4 @@ def get_question():
 
 
 def run_game():
-    talk_game(get_question, case)
+    talk_game(get_question, CASE)

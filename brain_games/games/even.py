@@ -3,7 +3,8 @@
 from random import randint
 from brain_games.talk import talk_game
 
-case = 'Answer "yes" if the number is even, otherwise answer "no".'
+CASE = 'Answer "yes" if the number is even, otherwise answer "no".'
+QUESTION = randint(0, 100)
 
 
 def is_even(number):
@@ -11,10 +12,9 @@ def is_even(number):
 
 
 def get_question():
-    question = randint(0, 100)
-    answer = "yes" if is_even(question) else "no"
-    return question, answer
+    answer = "yes" if is_even(QUESTION) else "no"
+    return QUESTION, answer
 
 
 def run_game():
-    talk_game(get_question, case)
+    talk_game(get_question, CASE)

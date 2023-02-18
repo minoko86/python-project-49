@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 
+from random import randint
 import prompt
 
-attempt_count = 3
+ATTEMPT_COUNT = 3
+
+def generate_number():
+    return randint(1, 100)
 
 
 def talk_game(get_question, case):
@@ -10,7 +14,7 @@ def talk_game(get_question, case):
     user_name = prompt.string("May I have your name? ")
     print("Hello, {}!".format(user_name))
     print(case)
-    for i in range(attempt_count):
+    for i in range(ATTEMPT_COUNT):
         question, correct_answer = get_question()
         print("Question: {}".format(question))
         user_answer = input("Your answer: ")

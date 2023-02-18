@@ -1,27 +1,30 @@
-from random import choice, choices
+from random import choice, randrange
 from brain_games.talk import talk_game
+from brain_games.talk import generate_number
 
-case = 'What is the result of the expression?'
+CASE = 'What is the result of the expression?'
+NUM1 = generate_number()
+NUM2 = generate_number()
+
 
 operator = choice(["+", "-", "*"])
 
 
-def calculated(num_1, num_2, operator):
+def calculate(NUM1, NUM2, operator):
     if operator == "+":
-        result = num_1 + num_2
+        result = NUM1 + NUM2
     elif operator == "-":
-        result = num_1 - num_2
+        result = NUM1 - NUM2
     elif operator == "*":
-        result = num_1 * num_2
+        result = NUM1 * NUM2
     return result
 
 
 def get_question():
-    num1, num2 = choices(range(1, 100), k=2)
-    answer = calculated(num1, num2, operator)
-    question = "{} {} {}".format(num1, operator, num2)
+    answer = calculate(NUM1, NUM2, operator)
+    question = "{} {} {}".format(NUM1, operator, NUM2)
     return question, str(answer)
 
 
 def run_game():
-    talk_game(get_question, case)
+    talk_game(get_question, CASE)
