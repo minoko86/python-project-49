@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
-from brain_games.utils import generate_num
+from random import randint
 
 CASE = 'Answer "yes" if the number is even, otherwise answer "no".'
+START = 0
+END = 100
+
+
+def generate_num():
+    return randint(START, END)
 
 
 def is_even(number):

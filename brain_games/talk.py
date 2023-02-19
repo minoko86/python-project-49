@@ -14,12 +14,20 @@ def talk_game(get_question, case):
         question, correct_answer = get_question()
         print("Question: {}".format(question))
         user_answer = input("Your answer: ")
-        if transform_answer(correct_answer) == user_answer:
-            print("Correct!")
-        else:
+    #     if transform_answer(correct_answer) == user_answer:
+    #         print("Correct!")
+    #     else:
+    #         print(
+    #             "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
+    #                 user_answer, transform_answer(correct_answer)))
+    #         print("Let's try again, {}!".format(user_name))
+    #         return
+    # print("Congratulations, {}!".format(user_name))
+        if transform_answer(correct_answer) != user_answer:
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
                     user_answer, transform_answer(correct_answer)))
             print("Let's try again, {}!".format(user_name))
             return
+        print("Correct!")
     print("Congratulations, {}!".format(user_name))

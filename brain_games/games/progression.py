@@ -1,8 +1,23 @@
-from brain_games.utils import generate_num_2, generate_num_3, generate_item
+from random import randint
 
 CASE = 'What number is missing in the progression?'
 
 PROGRESSION_LENGHT = 15
+START = 1
+END = 100
+END_2 = 10
+
+
+def generate_num_2():
+    return randint(START, END)
+
+
+def generate_num_3():
+    return randint(START, END_2)
+
+
+def generate_item():
+    return randint(START, PROGRESSION_LENGHT - 1)
 
 
 def get_progression(start, step, PROGRESSION_LENGHT):
