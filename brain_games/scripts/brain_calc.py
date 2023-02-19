@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
 from brain_games.games import calc
+from brain_games.talk import talk_game
 
 
 def main():
-    calc.run_game()
+    talk_game(calc.get_question, calc.CASE)
 
 
 if __name__ == "__name__":

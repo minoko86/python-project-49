@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
 from brain_games.games import progression
+from brain_games.talk import talk_game
 
 
 def main():
-    progression.run_game()
+    talk_game(progression.get_question, progression.CASE)
 
 
 if __name__ == "__name__":
