@@ -33,7 +33,7 @@ def get_operator():
 
 
 def transform_answer(answer):
-    if  type(answer) is int:
+    if type(answer) is int:
         return str(answer)
     elif type(answer) is str:
         return str
