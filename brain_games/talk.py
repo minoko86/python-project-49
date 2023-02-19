@@ -13,7 +13,7 @@ def talk_game(get_question, case):
     for i in range(ATTEMPT_COUNT):
         question, correct_answer = get_question()
         print("Question: {}".format(question))
-        user_answer = input("Your answer: ")
+        user_answer = prompt.string("Your answer: ")
         user_answer = user_answer.lower()
         if transform_answer(correct_answer) != user_answer:
             print(
