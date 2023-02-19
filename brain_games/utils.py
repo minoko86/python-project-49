@@ -1,5 +1,4 @@
 from random import randrange, randint, choice
-from brain_games.games import even
 
 PROGRESSION_LENGHT = 15
 START = 1
