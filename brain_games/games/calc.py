@@ -1,4 +1,3 @@
-from random import choice
 from brain_games.utils import generate_number, get_operator
 
 CASE = 'What is the result of the expression?'

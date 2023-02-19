@@ -10,7 +10,5 @@ def is_even(number):
 
 def get_question():
     question = generate_num()
-#    answer = "yes" if is_even(question) else "no"
     answer = is_even(question)
     return question, answer
-#    return question

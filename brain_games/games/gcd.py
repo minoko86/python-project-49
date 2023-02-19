@@ -1,7 +1,6 @@
 from brain_games.utils import generate_number
 
 CASE = 'Find the greatest common divisor of given numbers.'
-# NUM_1, NUM_2 = choices(range(1, 30), k=2)
 
 
 def get_gcd(num_1, num_2):

@@ -11,17 +11,14 @@ def talk_game(get_question, case):
     print("Hello, {}!".format(user_name))
     print(case)
     for i in range(ATTEMPT_COUNT):
- #       question, correct_answer = get_question()
         question, correct_answer = get_question()
         print("Question: {}".format(question))
         user_answer = input("Your answer: ")
-        # if correct_answer() == user_answer:
         if transform_answer(correct_answer) == user_answer:
             print("Correct!")
         else:
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
-            #        user_answer, correct_answer))
                      user_answer, transform_answer(correct_answer)))
             print("Let's try again, {}!".format(user_name))
             return

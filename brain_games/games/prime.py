@@ -15,7 +15,5 @@ def is_prime(num):
 
 def get_question():
     question = generate_number()
-    # answer = "yes" if is_prime(question) else "no"
     answer = is_prime(question)
     return question, answer
-#    return question
