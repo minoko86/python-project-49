@@ -23,7 +23,7 @@ def talk_game(get_question, case):
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
             #        user_answer, correct_answer))
-                     user_answer, correct_answer))
+                     user_answer, transform_answer(correct_answer)))
             print("Let's try again, {}!".format(user_name))
             return
     print("Congratulations, {}!".format(user_name))
