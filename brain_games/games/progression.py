@@ -8,11 +8,11 @@ END = 100
 END_2 = 10
 
 
-def generate_num_2():
+def generate_num():
     return randint(START, END)
 
 
-def generate_num_3():
+def generate_num_2():
     return randint(START, END_2)
 
 
@@ -27,8 +27,8 @@ def get_progression(start, step, PROGRESSION_LENGHT):
 
 
 def get_question():
-    start = generate_num_2()
-    step = generate_num_3()
+    start = generate_num()
+    step = generate_num_2()
     miss_item_index = generate_item()
     progression = get_progression(start, step, PROGRESSION_LENGHT)
     answer = progression.pop(miss_item_index)
