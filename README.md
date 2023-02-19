@@ -27,7 +27,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC" target="_blank"><img src="https://asciinema.org/a/Now5oROOIXFuspplbetGXudYC.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/Hl8Bi7U9peztw83HLr2APpU7x" target="_blank"><img src="https://asciinema.org/a/Hl8Bi7U9peztw83HLr2APpU7x.svg" width="800" height="450" /></a>
 
 [вернуться к списку игр](#list_of_games)
 <a name="brain-calc"></a>
@@ -41,7 +41,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u?autoplay=1" target="_blank"><img src="https://asciinema.org/a/XNq27OBWG1I4HWfGD3XCVQm1u.svg" width="800" height="450"  /></a>
+<a href="https://asciinema.org/a/8BarJpzRS6f3tfEWLXOBn8Zx6" target="_blank"><img src="https://asciinema.org/a/8BarJpzRS6f3tfEWLXOBn8Zx6.svg" width="800" height="450"  /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -58,7 +58,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ" target="_blank"><img src="https://asciinema.org/a/wtp1Cenug6tEA9nXiq1boG7sJ.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/8yhbHBWDQELjMPrPzlvFRgJT9" target="_blank"><img src="https://asciinema.org/a/8yhbHBWDQELjMPrPzlvFRgJT9.svg" width="800" height="450" /></a>
 
 [вернуться к списку игр](#list_of_games)
 
@@ -75,7 +75,7 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/7NDDoCKmArrKy91hwKPLQenY5" target="_blank"><img src="https://asciinema.org/a/7NDDoCKmArrKy91hwKPLQenY5.svg" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/BovqnF8XlouQ6mDjFqYAkf7bQ" target="_blank"><img src="https://asciinema.org/a/BovqnF8XlouQ6mDjFqYAkf7bQ.svg" width="800" height="450" /></a>
 
 
 [вернуться к списку игр](#list_of_games)
@@ -93,6 +93,6 @@
 - Игра считается пройденной если Вы правильно ответили 3 раза подряд
 - В случае если вы ввели неправильный ответ, то игра завершается.
 
-<a href="https://asciinema.org/a/5w0L5veeb3pUlgUNJeJfXZOTj" target="_blank"><img src="https://asciinema.org/a/5w0L5veeb3pUlgUNJeJfXZOTj.svg" width="800" height="450"/></a>
+<a href="https://asciinema.org/a/8qL8hDNl0ENVVdjn0vtBT3YnJ" target="_blank"><img src="https://asciinema.org/a/8qL8hDNl0ENVVdjn0vtBT3YnJ.svg" width="800" height="450"/></a>
 
 [вернуться к списку игр](#list_of_games)
