@@ -1,4 +1,5 @@
 from random import randrange, randint, choice
+from brain_games.games import even
 
 PROGRESSION_LENGHT = 15
 START = 1
@@ -32,6 +33,6 @@ def get_operator():
     return choice(["+", "-", "*"])
 
 def transform_answer(answer):
-    if answer is True:
+    if  answer is True:
         return 'yes'
     return 'no'
