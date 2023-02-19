@@ -31,7 +31,13 @@ def generate_item():
 def get_operator():
     return choice(["+", "-", "*"])
 
+
 def transform_answer(answer):
-    if  answer is True:
-        return 'yes'
-    return 'no'
+    if  type(answer) is int:
+        return str(answer)
+    elif type(answer) is str:
+        return str
+    elif type(answer) is bool:
+        if answer is True:
+            return 'yes'
+        return 'no'
