@@ -14,6 +14,7 @@ def talk_game(get_question, case):
         question, correct_answer = get_question()
         print("Question: {}".format(question))
         user_answer = input("Your answer: ")
+        user_answer = user_answer.lower()
         if transform_answer(correct_answer) != user_answer:
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
