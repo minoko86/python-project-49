@@ -20,4 +20,4 @@ def get_question():
     num2 = generate_number()
     answer = calculate(num1, num2, operator)
     question = "{} {} {}".format(num1, operator, num2)
-    return question, str(answer)
+    return question, answer

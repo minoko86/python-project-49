@@ -15,4 +15,4 @@ def get_question():
     num_2 = generate_number()
     question = "{} {}".format(num_1, num_2)
     answer = get_gcd(num_1, num_2)
-    return question, str(answer)
+    return question, answer
