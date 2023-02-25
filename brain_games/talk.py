@@ -18,7 +18,7 @@ def run_game(get_question, RULE):
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
                     user_answer, transform_answer(correct_answer)))
-            print("Let's try again, {user_name}!")
+            print(f"Let's try again, {user_name}!")
             return
         print("Correct!")
     print(f"Congratulations, {user_name}!")
