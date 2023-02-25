@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 from random import randint
 
-CASE = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 START = 0
 END = 100
 
@@ -14,7 +13,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def get_question():
+def get_the_data_for_the_round():
     question = generate_num()
     answer = is_even(question)
     return question, answer

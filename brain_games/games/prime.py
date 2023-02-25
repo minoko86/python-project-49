@@ -1,6 +1,6 @@
 from brain_games.utils import generate_number
 
-CASE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
@@ -13,7 +13,7 @@ def is_prime(num):
     return count == 1
 
 
-def get_question():
+def get_the_data_for_the_round():
     question = generate_number()
     answer = is_prime(question)
     return question, answer

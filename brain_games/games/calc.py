@@ -1,6 +1,14 @@
-from brain_games.utils import generate_number, get_operator
+from brain_games.utils import generate_number
+from random import choice
 
-CASE = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
+SUMMA = "+"
+DIFF = "-"
+PROD = "*"
+
+
+def get_operator():
+    return choice([SUMMA, DIFF, PROD])
 
 
 def calculate(num1, num2, operator):
@@ -13,10 +21,10 @@ def calculate(num1, num2, operator):
     return result
 
 
-def get_question():
+def get_the_data_for_the_round():
     operator = get_operator()
     num1 = generate_number()
     num2 = generate_number()
     answer = calculate(num1, num2, operator)
-    question = "{} {} {}".format(num1, operator, num2)
+    question = f"{num1} {operator} {num2}"
     return question, answer

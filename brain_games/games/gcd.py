@@ -1,6 +1,6 @@
 from brain_games.utils import generate_number
 
-CASE = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd(num_1, num_2):
@@ -9,9 +9,9 @@ def get_gcd(num_1, num_2):
     return num_1
 
 
-def get_question():
+def get_the_data_for_the_round():
     num_1 = generate_number()
     num_2 = generate_number()
-    question = "{} {}".format(num_1, num_2)
+    question = f"{num_1} {num_2}"
     answer = get_gcd(num_1, num_2)
     return question, answer
