@@ -2,8 +2,38 @@
 [![Actions Status](https://github.com/minoko86/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/minoko86/python-project-49/actions)
 ### Maintainability Badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/7e6161e23cf9cd388603/maintainability)](https://codeclimate.com/github/minoko86/python-project-49/maintainability)
-<a name="list_of_games"></a>
 
+# Клонировать репозиторий:
+git clone https://github.com/minoko86/python-project-49.git
+
+# Setup:
+Python ^3.10
+
+Flake8 ^6.0.0
+
+Prompt ^0.4.1
+
+Poetry 1.2.2
+
+# Используемые команды Makefile:
+Make install - установка пакетов #poetry install
+
+Make build - сборка и отладка пакетов #poetry build
+
+Make package-install - установка пакетов в систему #poetry -m pip install --force-reinstall dist/*.whl
+
+Команды запуска к играм:
+brain-prime — игра «Простое ли число?»
+
+brain-progression — игра «Арифмитическая прогрессия»
+
+brain-even — игра «Проверка на чётность»
+
+brain-calc — игра Калькулятор»
+
+brain-gcd — игра Игра НОД»
+
+<a name="list_of_games"></a>
 # Набор консольных мини-игр:
 [Игра: "Проверка на четность"](#brain-even)
 
